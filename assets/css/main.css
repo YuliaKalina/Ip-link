@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3{
+    border-bottom: 2px solid #fff675;
+}
+span{
+    text-decoration: underline;
+}
+
+.image-main {
+    width: 100%;
+    height: 100vh;
+}
+
+.rotate {
+    -webkit-writing-mode: vertical-rl;
+    writing-mode:tb-rl;
+}
+
+
+.bg-yellow {
+   background-color: #FFFFAD;
+}
+
+.bg-yellow:hover {
+    background-color: lightyellow;
+}
+
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.caption{
+    font-size: 70pt;
+    letter-spacing: 20pt;
+}
+
+.text-underline{
+   border-bottom: 2px solid yellow;
+}
+
+
+
+.text-underline:hover{
+    border-bottom: 2px solid #6c757d;
+}
+
+.logo-width{
+    width: 150px;
+}
+
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-radius{
+    border-radius: 500px;
+}
+
+
+.font-size-info{
+    font-size: 14px;
+}
+
+.margin-caption{
+    margin-top: 8%;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.size{
+    width: 200px;
+    height: 200px;
+}
+
+
+.z-index{
+    z-index: 1000;
+}
+
+a .bg-light:hover {
+    background-color: #f3f4f5 !important;
+}
