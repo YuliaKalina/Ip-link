@@ -3,8 +3,6 @@
 <head>
   <link rel="stylesheet" href="./assets/css/fontawesome.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -13,6 +11,7 @@
   <title>IP-Link</title>
 </head>
 <body>
+
 
 <nav id="top-section" class="navbar navbar-expand-lg nav nav-pills nav-justified">
   <a class="navbar-brand" href="#">
@@ -35,66 +34,67 @@
 
     <ul class="navbar-nav mr-auto ">
       <li class="nav-item active">
-        <a class="nav-link p-4 text-secondary bg-yellow" href="#">Услуги </a>
+        <a class="nav-link p-4 text-secondary bg-yellow" href="#services">Услуги </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link p-4 text-secondary bg-yellow" href="#">Тарифы</a>
+        <a class="nav-link p-4 text-secondary bg-yellow" href="#tariffs">Тарифы</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link p-4 text-secondary bg-yellow" href="#">
+        <a class="nav-link p-4 text-secondary bg-yellow" href="#subscriber">
           Абоненту
         </a>
       </li>
       <li class="nav-item ">
-        <p class=" text-center font-size-info px-4 py-3 text-secondary bg-light">Техническая и информационная поддержка:<br>
+        <p class=" text-center font-size-info px-4 py-3 text-secondary bg-light">Техническая и информационная
+          поддержка:<br>
           095-947-41-61 | 096-699-11-82</p>
       </li>
     </ul>
   </div>
 </nav>
 
-
-<div class="row">
-  <div class="col-lg-4 col-sm-10 offset-lg-2 offset-1 margin-caption">
-    <h1 class="text-uppercase font-weight-bold caption">IP-Link</h1>
-    <p class="text-uppercase text-secondary my-5">
-      стабильность, качество, скорость
-    </p>
-    <p class=" text-secondary mr-5">
-      Созданный группой интузиастов для себя и своих соседей, IP-Link считается гарантией быстрого и надежного
-      интернета по доступной цене. <br>
-      Более 100 тысяч пользователей Харьковской области пользуются IP-Link и рекомендуют
-      его своим соседям и знакомым.
-    </p>
-    <div class="mt-5 d-lg-block d-none">
-      <a href="#">
-        <button type="button" class="btn btn-link text-dark text-decoration-none text-underline">Узнать больше
-        </button>
-      </a>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-sm-10 margin-caption">
+      <h1 class="text-uppercase font-weight-bold caption">IP-Link</h1>
+      <p class="text-uppercase text-secondary my-5">
+        стабильность, качество, скорость
+      </p>
+      <p class=" text-secondary mr-5">
+        Созданный группой интузиастов для себя и своих соседей, IP-Link считается гарантией быстрого и надежного
+        интернета по доступной цене. <br>
+        Более 100 тысяч пользователей Харьковской области пользуются IP-Link и рекомендуют
+        его своим соседям и знакомым.
+      </p>
+      <div class="mt-5 d-lg-block d-none">
+        <a href="#">
+          <button type="button" class="btn btn-link text-dark text-decoration-none text-underline">Узнать больше
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="margin-caption col-lg-5 offset-1 d-lg-block d-none ">
+      <div class="ml-5">
+        <img class="border-radius" style="width: 450px; height: 450px" src="./assets/img/connection_ps_crop.jpg" alt="">
+      </div>
     </div>
   </div>
-  <div class="margin-caption col-lg-4 offset-1 d-lg-block d-none ">
-    <div class="ml-5">
-      <img class="border-radius" style="width: 450px; height: 450px" src="./assets/img/connection_ps_crop.jpg" alt="">
-    </div>
+
+  <div class="z-index position-fixed">
+    <a href="#top-section">
+      <button type="button" class="btn btn-lg btn-light rounded-circle shadow-lg">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </a>
   </div>
-</div>
 
-<div class="z-index offset-11 position-fixed">
-  <a href="#top-section">
-    <button type="button" class="btn btn-lg btn-light rounded-circle shadow-lg">
-      <i class="fas fa-angle-up"></i>
-    </button>
-  </a>
-</div>
+  <div id="services" class="col-6 margin-caption mb-5">
+    <h3 class="text-dark">Присоединяйтесь к нам и вы получите:</h3>
+  </div>
 
-<div class="col-lg-4 col-10 offset-lg-2 offset-1 margin-caption mb-5">
-  <h3 class="text-dark">Присоединяйтесь к нам и вы получите:</h3>
-</div>
-
-  <div class="col-lg-12 col-10 offset-lg-2 offset-1 row">
-    <div class="col-4">
-      <ul class="list-group list-group-flush my-lg-5 mr-lg-5">
+  <div class="container d-flex  row">
+    <div class="col-6">
+      <ul class="list-group list-group-flush my-lg-5 ">
         <li class="list-group-item">
           доступ в Сеть на скорости до 100 Мбит/секунду;
         </li>
@@ -109,7 +109,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-4">
+    <div class="col-6 ">
       <ul class="list-group list-group-flush my-5">
         <li class="list-group-item">
           бесплатную установку и настройку Wi-Fi роутера;
@@ -128,189 +128,411 @@
   </div>
 
 
-<div class="col-lg-3 col-6 offset-lg-2 offset-1 mt-5 mb-4">
-  <h3 class="text-dark">Дополнительные услуги:</h3>
-</div>
-<div class="col-12 offset-lg-2 offset-1 row">
-  <ul class="list-unstyled my-lg-5  ml-0">
-    <li class="p-3 font-weight-bold"><i class="fas fa-money-check-alt text-yellow"></i> Отсрочка платежа</li>
-    <li class="p-3 font-weight-bold"><i class="fas fa-money-bill-wave text-yellow"></i> Обещанный платёж
-    </li>
-    <li class="p-3 font-weight-bold"><i class="fas fa-globe text-yellow"></i> Сервис
-    </li>
-  </ul>
-  <ul class="list-unstyled my-lg-5 offset-lg-1 pl-lg-3">
-    <li class="p-3 font-weight-bold"><i class="fas fa-tv text-secondary"></i> Цифровое ТВ
-    </li>
-    <li class="p-3 font-weight-bold"><i class="fas fa-wifi text-secondary"></i> Wi-Fi подключение
-    </li>
-    <li class="p-3 font-weight-bold"><i class="fas fa-gamepad text-secondary"></i> ТВ-приставки
-    </li>
-  </ul>
-  <ul class="list-unstyled my-lg-5 offset-lg-1 pl-lg-3">
-    <li class="pl-lg-3 p-3 font-weight-bold"><i class="fas fa-comment text-yellow"></i> SMS уведомление
-    </li>
-    <li class="pl-lg-3 p-3 font-weight-bold"><i class="fas fa-lock text-yellow"></i> Добровольная блокировка
-    </li>
-    <li class="pl-lg-3  p-3 font-weight-bold"><i class="fas fa-shield-alt text-yellow"></i> Подписка на антивирусы
-    </li>
-  </ul>
-</div>
-
-
-<div class="col-lg-2 col-5 offset-lg-2 offset-1 my-5 ">
-  <h3 class="text-dark">Тариф 50</h3>
-</div>
-<div class="col-12 row">
-  <div class="col-lg-5  offset-lg-2 ">
-    <table class="table">
-      <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Услуга</th>
-        <th scope="col">Цена</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Подключение</td>
-        <td>Бесплатное</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Абонентская плата</td>
-        <td>100</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Скорость вх./исх., до (Мбит/сек.)</td>
-        <td>10/10</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>Объем трафика</td>
-        <td>неограничен
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>Круглосуточная служба поддержки</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td> Настрой кино</td>
-        <td>50</td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>Ночной</td>
-        <td>50</td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td> Онлайн-кинотеатр IVI</td>
-        <td>30</td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td> Онлайн-кинотеатр MEGOGO</td>
-        <td>35</td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td> Реальный IP адрес</td>
-        <td>40</td>
-      </tr>
-      <tr>
-        <th scope="row">11</th>
-        <td> SMS уведомление</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <th scope="row">12</th>
-        <td> Подписка на антивирусы</td>
-        <td>20</td>
-      </tr>
-      <tr>
-        <th scope="row">13</th>
-        <td> WiFi роутер</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <th scope="row">14</th>
-        <td> Настройка WiFi</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <th scope="row">15</th>
-        <td>Добровольная блокировка</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <th scope="row">16</th>
-        <td>Телевидение + КИНО</td>
-        <td>300</td>
-      </tr>
-      <tr>
-        <th scope="row">17</th>
-        <td> Телевидение 277 каналов</td>
-        <td>250</td>
-      </tr>
-      </tbody>
-    </table>
+  <div class="col-lg-5 col-6  mt-5 mb-4">
+    <h3 class="text-dark">Дополнительные услуги:</h3>
+  </div>
+  <div class="row">
+    <ul class="list-unstyled col-lg-4 my-lg-4  ml-0">
+      <li class="p-3 font-weight-bold"><i class="fas fa-money-check-alt text-yellow"></i> Отсрочка платежа</li>
+      <li class="p-3 font-weight-bold"><i class="fas fa-money-bill-wave text-yellow"></i> Обещанный платёж
+      </li>
+      <li class="p-3 font-weight-bold"><i class="fas fa-globe text-yellow"></i> Сервис
+      </li>
+    </ul>
+    <ul class="list-unstyled my-lg-4 col-lg-4 pl-lg-3">
+      <li class="p-3 font-weight-bold"><i class="fas fa-tv text-secondary"></i> Цифровое ТВ
+      </li>
+      <li class="p-3 font-weight-bold"><i class="fas fa-wifi text-secondary"></i> Wi-Fi подключение
+      </li>
+      <li class="p-3 font-weight-bold"><i class="fas fa-gamepad text-secondary"></i> ТВ-приставки
+      </li>
+    </ul>
+    <ul class="list-unstyled col-lg-4 my-lg-4 pl-lg-3">
+      <li class="pl-lg-3 p-3 font-weight-bold"><i class="fas fa-comment text-yellow"></i> SMS уведомление
+      </li>
+      <li class="pl-lg-3 p-3 font-weight-bold"><i class="fas fa-lock text-yellow"></i> Добровольная блокировка
+      </li>
+      <li class="pl-lg-3  p-3 font-weight-bold"><i class="fas fa-shield-alt text-yellow"></i> Подписка на антивирусы
+      </li>
+    </ul>
   </div>
 
-  <div class="col-4 offset-1 mt-5">
-    <a class="text-decoration-none" href="#">
-      <div class="shadow bg-yellow size align-items-center justify-content-center d-flex my-3 offset-4">
-        <p class="text-dark text-center align-self-center font-weight-bold">Тариф 50</p>
+  <div class="row">
+    <div id="tariffs" class="tab-content col-lg-6">
+      <div id="home" class="tab-pane active">
+        <div class="col-lg-4 col-5  my-5 ">
+          <h3 class="text-dark">Тариф 50</h3>
+        </div>
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Услуга</th>
+            <th scope="col">Цена</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Подключение</td>
+            <td>Бесплатное</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Абонентская плата</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Скорость вх./исх., до (Мбит/сек.)</td>
+            <td>10/10</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Объем трафика</td>
+            <td>неограничен
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Круглосуточная служба поддержки</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td> Настрой кино</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Ночной</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td> Онлайн-кинотеатр IVI</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td> Онлайн-кинотеатр MEGOGO</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td> Реальный IP адрес</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td> SMS уведомление</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td> Подписка на антивирусы</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td> WiFi роутер</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td> Настройка WiFi</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>Добровольная блокировка</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>Телевидение + КИНО</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td> Телевидение 277 каналов</td>
+            <td>250</td>
+          </tr>
+          </tbody>
+        </table>
       </div>
-    </a>
-    <a class="text-decoration-none" href="#">
-      <div class="shadow bg-light size align-items-center justify-content-center d-flex">
-        <p class="text-dark text-center font-weight-bold">Тариф 100</p>
-      </div>
-    </a>
-    <a class="text-decoration-none" href="#">
-      <div class="shadow bg-yellow size align-items-center justify-content-center d-flex my-3 offset-4">
-        <p class="text-dark text-center font-weight-bold v-align">Тариф 200</p>
-      </div>
-    </a>
-  </div>
-</div>
 
-<div class="col-lg-2 col-5 offset-lg-2 offset-1 my-5 ">
-  <h3 class="text-dark">Абоненту</h3>
-</div>
-<div class="col-lg-6 col-10 offset-lg-2 offset-1 my-2 ">
-  <p>
-    Благодарим Вас за пользование услугами IP-Link и выражаем надежду, что наши
-    отношения будут долгосрочными и взаимовыгодными.
-  </p>
-  <p>
-    Данный раздел является дополнительным средством для обеспечения
-    информацией и поддержки наших абонентов.
-  </p>
-  <p>
-    Основная услуга - Доступ в Интернет по выделенному каналу - предоставляется
-    согласно условиям выбранного вами тарифа.
-  </p>
-  <p>
-    С основными вопросами и инструкциями, описывающими ваши самостоятельные
-    действия при возникновения проблем с доступом в Интернет.
-  </p>
-  <p>
-    Если же информации на нашем сайте недостаточно, звоните в круглосуточную
-    службу поддержки пользователей по телефону <span> 095-947-41-61 | 096-699-11-82. </span>
-    Наши специалисты всегда придут на помощь и окажут Вам всестороннее
-    содействие в решении любых проблем.
-  </p>
-  <p>
-    Знание учетных реквизитов существенно облегчит ваше дальнейшее
-    взаимодействие с клиентской службой, просьба указывать его при обращении.
-  </p>
+
+      <div id="menu1" class="tab-pane fade">
+        <div class="col-lg-4 col-5  my-5 ">
+          <h3 class="text-dark">Тариф 100</h3>
+        </div>
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Услуга</th>
+            <th scope="col">Цена</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Подключение</td>
+            <td>Бесплатное</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Абонентская плата</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Скорость вх./исх., до (Мбит/сек.)</td>
+            <td>10/10</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Объем трафика</td>
+            <td>неограничен
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Круглосуточная служба поддержки</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td> Настрой кино</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Ночной</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td> Онлайн-кинотеатр IVI</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td> Онлайн-кинотеатр MEGOGO</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td> Реальный IP адрес</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td> SMS уведомление</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td> Подписка на антивирусы</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td> WiFi роутер</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td> Настройка WiFi</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>Добровольная блокировка</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>Телевидение + КИНО</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td> Телевидение 277 каналов</td>
+            <td>250</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div id="menu2" class="tab-pane fade">
+        <div class="col-lg-4 col-5  my-5 ">
+          <h3 class="text-dark">Тариф 200</h3>
+        </div>
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Услуга</th>
+            <th scope="col">Цена</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Подключение</td>
+            <td>Бесплатное</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Абонентская плата</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Скорость вх./исх., до (Мбит/сек.)</td>
+            <td>10/10</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Объем трафика</td>
+            <td>неограничен
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Круглосуточная служба поддержки</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td> Настрой кино</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Ночной</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td> Онлайн-кинотеатр IVI</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td> Онлайн-кинотеатр MEGOGO</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td> Реальный IP адрес</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td> SMS уведомление</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td> Подписка на антивирусы</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td> WiFi роутер</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td> Настройка WiFi</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>Добровольная блокировка</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>Телевидение + КИНО</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td> Телевидение 277 каналов</td>
+            <td>250</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="nav nav-tabs align-items-center col-lg-5 row ml-5 mt-1">
+
+      <div class="col-lg-6">
+        <a data-toggle="tab" class="text-decoration-none" href="#menu1">
+          <div class="shadow bg-light size align-items-center justify-content-center d-flex">
+            <p class=" text-dark text-center font-weight-bold">Тариф 100</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a data-toggle="tab" class="text-decoration-none" href="#home">
+          <div class=" shadow bg-yellow size align-items-center justify-content-center d-flex my-5">
+            <p class=" text-dark text-center align-self-center font-weight-bold">Тариф
+              50</p>
+          </div>
+        </a>
+        <a data-toggle="tab" class="text-decoration-none" href="#menu2">
+          <div class="shadow bg-yellow size align-items-center justify-content-center d-flex ">
+            <p class="text-dark text-center font-weight-bold v-align">Тариф 200</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="subscriber" class="col-lg-2 col-5  my-5 ">
+    <h3 class="text-dark">Абоненту</h3>
+  </div>
+  <div class="row pb-4">
+    <div class="col-lg-7 col-10 my-2 ">
+      <p>
+        Благодарим Вас за пользование услугами IP-Link и выражаем надежду, что наши
+        отношения будут долгосрочными и взаимовыгодными.
+      </p>
+      <p>
+        Данный раздел является дополнительным средством для обеспечения
+        информацией и поддержки наших абонентов.
+      </p>
+      <p>
+        Основная услуга - Доступ в Интернет по выделенному каналу - предоставляется
+        согласно условиям выбранного вами тарифа.
+      </p>
+      <p>
+        С основными вопросами и инструкциями, описывающими ваши самостоятельные
+        действия при возникновения проблем с доступом в Интернет.
+      </p>
+      <p>
+        Если же информации на нашем сайте недостаточно, звоните в круглосуточную
+        службу поддержки пользователей по телефону <span> 095-947-41-61 | 096-699-11-82. </span>
+        Наши специалисты всегда придут на помощь и окажут Вам всестороннее
+        содействие в решении любых проблем.
+      </p>
+      <p>
+        Знание учетных реквизитов существенно облегчит ваше дальнейшее
+        взаимодействие с клиентской службой, просьба указывать его при обращении.
+      </p>
+    </div>
+    <div class="col-lg-4 mx-auto col-10 my-auto ">
+      <img width="100%" src="./assets/img/subscriber.svg" alt="">
+    </div>
+  </div>
 </div>
 
 <footer class="page-footer font-small bg-light">
@@ -345,80 +567,6 @@
     </div>
   </div>
 </footer>
-<!-- Footer -->
-<!--    <div class="col-lg-8">-->
-<!--        <div class="m-5">-->
-<!--          <h1 class="text-uppercase font-weight-bold caption">IP-<br>Link</h1>-->
-<!--        </div>-->
-<!--        <div class=" m-5">-->
-<!--          <p class="text-uppercase text-secondary">-->
-<!--            стабильность, качество, скорость-->
-<!--          </p>-->
-<!--          <p class=" text-secondary">-->
-<!--            Созданный группой интузиастов для себя и своих соседей, IP-Link считается гарантией быстрого и надежного-->
-<!--            интернета по доступной цене. <br>-->
-<!--            Более 100 тысяч пользователей Харьковской области пользуются IP-Link и рекомендуют-->
-<!--            его своим соседям и знакомым.-->
-<!--          </p>-->
-<!--        </div>-->
-
-<!--        <div class="m-5">-->
-<!--          <a href="#">-->
-<!--            <button type="button" class="btn btn-link text-secondary text-decoration-none text-underline">Узнать больше-->
-<!--            </button>-->
-<!--          </a>-->
-<!--        </div>-->
-<!--      </div>-->
-
-
-<!--<div class="row">-->
-
-<!--    <div class="row">-->
-<!--    <div class="col-lg-1 p-0 m-0">-->
-<!--      <img class="p-4 ml-3 logo-width" src="./assets/img/ip-link-logo-my.svg" alt="logo">-->
-<!--      <div class="mt-5 ml-3">-->
-<!--        <p class="rotate">Техническая и информационная поддержка: 095-947-41-61 | 096-699-11-82</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="col-lg-5 p-0">-->
-<!--      <div class="d-lg-block d-none">-->
-<!--        <img class="image-main p-0 m-0" src="assets/img/connection_ps_crop.jpg" alt="connection">-->
-<!--      </div>-->
-<!--    </div>-->
-
-<!--  <div class="col-lg-6 p-0 m-0">-->
-<!--    <nav class="nav nav-pills nav-justified">-->
-<!--      <a class="nav-item nav-link p-4 text-secondary bg-yellow" href="#">Услуги</a>-->
-<!--      <a class="nav-item nav-link p-4 text-secondary bg-yellow" href="#">Тарифы</a>-->
-<!--      <a class="nav-item nav-link p-4 text-secondary bg-light" href="#">Абоненту</a>-->
-<!--    </nav>-->
-<!--    <div class="col-lg-8">-->
-<!--      <div class="m-5">-->
-<!--        <h1 class="text-uppercase font-weight-bold caption">IP-<br>Link</h1>-->
-<!--      </div>-->
-<!--      <div class=" m-5">-->
-<!--        <p class="text-uppercase text-secondary">-->
-<!--          стабильность, качество, скорость-->
-<!--        </p>-->
-<!--        <p class=" text-secondary">-->
-<!--          Созданный группой интузиастов для себя и своих соседей, IP-Link считается гарантией быстрого и надежного-->
-<!--          интернета по доступной цене. <br>-->
-<!--          Более 100 тысяч пользователей Харьковской области пользуются IP-Link и рекомендуют-->
-<!--          его своим соседям и знакомым.-->
-<!--        </p>-->
-<!--      </div>-->
-
-<!--      <div class="m-5">-->
-<!--        <a href="#">-->
-<!--          <button type="button" class="btn btn-link text-secondary text-decoration-none text-underline">Узнать больше-->
-<!--          </button>-->
-<!--        </a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
-<!--</div>-->
-<!-- CSS only -->
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
@@ -427,6 +575,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
         integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
         crossorigin="anonymous"></script>
+<script src="./assets/js/tabs.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -4,10 +4,11 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-h3{
+h3 {
     border-bottom: 2px solid #fff675;
 }
-span{
+
+span {
     text-decoration: underline;
 }
 
@@ -18,12 +19,12 @@ span{
 
 .rotate {
     -webkit-writing-mode: vertical-rl;
-    writing-mode:tb-rl;
+    writing-mode: tb-rl;
 }
 
 
 .bg-yellow {
-   background-color: #FFFFAD;
+    background-color: #FFFFAD;
 }
 
 .bg-yellow:hover {
@@ -35,22 +36,21 @@ span{
     border-radius: 0;
 }
 
-.caption{
+.caption {
     font-size: 70pt;
     letter-spacing: 20pt;
 }
 
-.text-underline{
-   border-bottom: 2px solid yellow;
+.text-underline {
+    border-bottom: 2px solid yellow;
 }
 
 
-
-.text-underline:hover{
+.text-underline:hover {
     border-bottom: 2px solid #6c757d;
 }
 
-.logo-width{
+.logo-width {
     width: 150px;
 }
 
@@ -62,33 +62,67 @@ span{
     justify-content: space-between;
 }
 
-.border-radius{
+.border-radius {
     border-radius: 500px;
 }
 
 
-.font-size-info{
+.font-size-info {
     font-size: 14px;
 }
 
-.margin-caption{
+.margin-caption {
     margin-top: 8%;
 }
 
-.text-yellow{
+.text-yellow {
     color: yellow;
 }
 
-.size{
+.size {
     width: 200px;
     height: 200px;
 }
 
 
-.z-index{
+.z-index {
     z-index: 1000;
 }
 
 a .bg-light:hover {
     background-color: #f3f4f5 !important;
 }
+
+.nav-tabs{
+    border: none;
+}
+/* Style the tab */
+
+/*!* Style the buttons inside the tab *!*/
+/*.tab button {*/
+/*    background-color: inherit;*/
+/*    float: left;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    cursor: pointer;*/
+/*    padding: 14px 16px;*/
+/*    transition: 0.3s;*/
+/*    font-size: 17px;*/
+/*}*/
+
+/*!* Change background color of buttons on hover *!*/
+/*.tab button:hover {*/
+/*    background-color: #ddd;*/
+/*}*/
+
+/*!* Create an active/current tablink class *!*/
+/*.tab button.active {*/
+/*    background-color: #ccc;*/
+/*}*/
+
+/*!* Style the tab content *!*/
+/*.tabcontent {*/
+
+/*    padding: 6px 12px;*/
+/*    border: none;*/
+/*}*/
