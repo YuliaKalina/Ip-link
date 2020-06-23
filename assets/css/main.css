@@ -1,7 +1,11 @@
 @charset "UTF-8";
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h3 {
@@ -96,33 +100,12 @@ a .bg-light:hover {
 .nav-tabs{
     border: none;
 }
-/* Style the tab */
 
-/*!* Style the buttons inside the tab *!*/
-/*.tab button {*/
-/*    background-color: inherit;*/
-/*    float: left;*/
-/*    border: none;*/
-/*    outline: none;*/
-/*    cursor: pointer;*/
-/*    padding: 14px 16px;*/
-/*    transition: 0.3s;*/
-/*    font-size: 17px;*/
-/*}*/
+.position-btn{
+    bottom: 5%;
+    right: 5%;
+}
 
-/*!* Change background color of buttons on hover *!*/
-/*.tab button:hover {*/
-/*    background-color: #ddd;*/
-/*}*/
-
-/*!* Create an active/current tablink class *!*/
-/*.tab button.active {*/
-/*    background-color: #ccc;*/
-/*}*/
-
-/*!* Style the tab content *!*/
-/*.tabcontent {*/
-
-/*    padding: 6px 12px;*/
-/*    border: none;*/
-/*}*/
+.font-size{
+    font-size: 13pt;
+}
